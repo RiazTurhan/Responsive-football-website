@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ------
+Others for help
+-------- */
+body{
+    font-family:'Poppins', sans-serif; ;
+}
+button{
+    padding: 8px 24px;
+    background-color: #E02C6D;
+    border: none;
+    color: #ffff;
+}
+button:hover{
+    border: 1px solid #E02C6D;
+    background-color: #ffff;
+    color: #E02C6D;
+}
+
+/* --------
+ header iteam start
+----------- */
+
+header{
+    width: 100%;
+    height: 640px;
+    background-color: rgb(51, 16, 175);
+}
+
+.header-container{
+    width: 80%;
+    margin: auto;
+}
+
+/* ------header-top start------ */
+.header-top-iteam{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+nav , .buttom{
+    margin: 10px 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ------header-top End------ */
+
+/* header main iteam start */
+
+.header-main-iteam{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.header-main-iteam .text{
+    flex-basis: 60%;
+}
+.header-main-iteam .text h1{
+    font-size: 4rem;
+    width: 70%;
+    font-weight: bold;
+    color: #ffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.header-main-iteam img{
+    width: 520px;
+}
+/* header main iteam end */
+
+/* -----------
+header iteam end
+---------- */
