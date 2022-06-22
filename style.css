@@ -257,6 +257,10 @@ Media query
         margin: 10px auto;
     }
 
+    .player-img img{
+        width: 200px;
+    }
+
     /* match highlight */
 
     .highlights{
