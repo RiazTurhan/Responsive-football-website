@@ -58,6 +58,9 @@ ul li a{
     font-size: 14px;
     font-weight: 700;
 }
+ul>i{
+    display: none;
+}
 
 /* ------header-top End------ */
 
@@ -118,14 +121,14 @@ player information Start
     
 }
 .player-img img{
-    width: 220px;
+    width: 260px;
     height: 200px;
     
 }
 .player-about h1{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
-    margin: 5px 15px;
+    margin: 5px 8px;
     text-align: left;
     
     
@@ -133,13 +136,142 @@ player information Start
 .player-about p{
     width: 80%;
     font-size: 13px;
-    margin: 5px 15px;
+    margin: 5px 8px;
     text-align: justify;
     color: rgb(24, 23, 23);
     font-weight: 600;
 }
 
-
 /* <!---------------------
 player information End
 ---------------------> */
+
+/* <!-- -----------
+Match highlights Start
+------------ --> */
+.highlights{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.highlight-img img{
+    width: 450px;
+}
+.highlight-text h1{
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 3rem;
+    width: 80%;
+    font-weight: bold;
+    color: rgb(2, 2, 61);
+}
+.highlight-text p{
+    width: 60%;
+    margin: 10px 0;
+}
+.highlight-text{
+    margin: 0 50px;
+}
+
+/* <!-- -----------
+Match highlights End
+------------ --> */
+
+/* ----------- 
+Footer start
+ -------------- */
+ footer{
+    margin: 10px 0;
+    align-items: center;
+    text-align: center;
+ }
+footer > .logo img{
+    width: 300px;
+    margin: 10px 0;
+}
+footer > .icons img{
+    width: 20px;
+    margin: 5px;
+}
+footer> p{
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+/* ----------- 
+Footer End
+ -------------- */
+
+
+/* ------------ 
+Media query
+---------------- */
+
+@media screen and (max-width:767px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    button{
+        padding: 10px 60px ;
+    }
+    /* header */
+    header{
+        width: 100%;
+        height: 800px;
+    }
+    .header-main-iteam{
+        flex-direction: column;
+    }
+    .header-main-iteam .text{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .header-main-iteam .text h1{
+        width: 100%;
+    }
+    .header-main-iteam img{
+        width: 400px;
+    }
+    nav > ul> li{
+        display: none; 
+    }
+    ul>i{
+        font-size:30px ;
+        color: #ffff;
+    }
+    .header-top-iteam .buttom > button{
+        padding: 8px 20px;
+    }
+
+        /* player information */
+
+    .player-info{
+        flex-direction: column;
+        
+    }
+    .player{
+        width: 90%;
+        margin: auto;
+    }
+
+    /* match highlight */
+
+    .highlights{
+        flex-direction: column;
+        width: 100%;
+    }
+    .highlight-text h1{
+        width: 100%;
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    .highlight-text p{
+        width: 100%;
+    }
+    .highlight-text{
+        margin: 20px;
+    }
+}
