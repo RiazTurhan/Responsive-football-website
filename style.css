@@ -58,7 +58,7 @@ ul li a{
     font-size: 14px;
     font-weight: 700;
 }
-ul>i{
+.fa-bars:before{
     display: none;
 }
 
@@ -221,6 +221,7 @@ Media query
     header{
         width: 100%;
         height: 800px;
+        overflow-x: hidden;
     }
     .header-main-iteam{
         flex-direction: column;
@@ -238,10 +239,13 @@ Media query
     nav > ul> li{
         display: none; 
     }
-    ul>i{
+    .fa-bars:before{
+        display: block;
         font-size:30px ;
         color: #ffff;
     }
+        
+    
     .header-top-iteam .buttom > button{
         padding: 8px 20px;
     }
@@ -258,7 +262,7 @@ Media query
     }
 
     .player-img img{
-        width: 200px;
+        width: 204px;
     }
 
     /* match highlight */
@@ -277,5 +281,9 @@ Media query
     }
     .highlight-text{
         margin: 20px;
+    }
+    .highlight-img img{
+        width: 380px;
+        margin: auto;
     }
 }
