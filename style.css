@@ -90,3 +90,56 @@ ul li a{
 /* -----------
 header iteam end
 ---------- */
+
+/* <!---------------------
+player information Start 
+---------------------> */
+
+.player-info{
+    width: 70%;
+    margin: 50px auto;
+   display: flex;
+   flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.021);
+    
+}
+.player{
+    width: 30%;
+    height: 400px ;
+    box-shadow: 10px 0px 5px  rgba(47, 47, 47, 0.062), 0px 10px 7px  rgba(47, 47, 47, 0.219), 7px 0px 5px rgba(47, 47, 47, 0.158);;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin:20px auto;
+    
+    
+}
+.player-img img{
+    width: 220px;
+    height: 200px;
+    
+}
+.player-about h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    margin: 5px 15px;
+    text-align: left;
+    
+    
+}
+.player-about p{
+    width: 80%;
+    font-size: 13px;
+    margin: 5px 15px;
+    text-align: justify;
+    color: rgb(24, 23, 23);
+    font-weight: 600;
+}
+
+
+/* <!---------------------
+player information End
+---------------------> */
